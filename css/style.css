@@ -1,0 +1,36 @@
+a#link-contact {
+    color: white;
+    transition: 0.2s;
+}
+
+#link-contact:hover {
+    color: #ff5c33;
+}
+
+#img-avatar {
+    width: 25%;
+    padding-top: 35vh;
+    padding-bottom: 5vh;
+}
+
+#section {
+    height: 100vh;
+}
+
+#contact-title {
+    text-align: center;
+    padding-top: 10vh;
+    color: #ff5c33;
+    font-size: 2.5em;
+}
+
+#formulario-bloco {
+    margin: 0 25vw;
+    margin-top: 10vh;
+    font-size: 1.3em;
+}
+
+#form-mensagem {
+    height: 10vh;
+    resize: none;
+}
