@@ -1,9 +1,9 @@
-a#link-contact {
+a#link {
     color: white;
     transition: 0.2s;
 }
 
-#link-contact:hover {
+#link:hover {
     color: #ff5c33;
 }
 
@@ -17,7 +17,7 @@ a#link-contact {
     height: 100vh;
 }
 
-#contact-title {
+.titulo {
     text-align: center;
     padding-top: 10vh;
     color: #ff5c33;
@@ -33,4 +33,9 @@ a#link-contact {
 #form-mensagem {
     height: 10vh;
     resize: none;
+}
+
+#footer-text {
+    color: white;
+    font-size: 1.2em;
 }

@@ -1,11 +1,13 @@
 <!doctype html>
 <html lang="pt-br">
     <head>
-        <meta charset="utf-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>DH - Portfólio</title>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     </head>
     <body>
         
@@ -18,39 +20,167 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a href="#contact-title" class="nav-link font-weight-bold text-uppercase" id="link-contact">contato</a>
+                            <a href="#home" class="nav-link font-weight-bold text-uppercase" id="link">home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#sobre-mim" class="nav-link font-weight-bold text-uppercase" id="link">sobre mim</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#servicos" class="nav-link font-weight-bold text-uppercase" id="link">meus serviços</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contato" class="nav-link font-weight-bold text-uppercase" id="link">contato</a>
                         </li>
                     </ul>
                 </div>
             </div>
-        </nav>
-        
-        <section>
+        </nav>       
+        <section id="home">
             <div class="container-fluid bg-primary" id="section">
                 <img class="mx-auto d-block" src="assets/img/avatar.svg" alt="avatar" title="avatar" id="img-avatar">
                 <div class="text-center text-white font-weight-bold" style="font-size: 2em;">Guilherme C. Tonello</div>
-                <div class="text-center text-white" style="font-size: 1.5em;">Front-End Developer</div>
+                <div class="text-center text-white" style="font-size: 1.5em;">Back-End Developer</div>
             </div>
         </section>
-        <section>
-            <div class="container-fluid" id="section">
-                <strong><p id="contact-title">CONTATO</p></strong>
+        <section id="sobre-mim">
+            <div class="container-fluid" style="height: auto; background-color: rgb(250, 250, 250);">
+                <strong><p class="titulo">SOBRE MIM</p></strong>
+                <div class="row text-center ml-md-5 mr-md-5 ml-0 mr-0 mb-3 mt-5">
+                    <div class="col-12 pt-3 pb-3 mt-2 mb-2" style="background-color: #f2f2f2; border-radius: 10px;">
+                        <strong><p style="color: #404040; font-size: 1.2em;">
+                            Sou Guilherme C. Tonello.
+                        </p></strong>
+                        <p style="text-justify color: #404040; font-size: 1.2em;">
+                            Sou programador Back-End e atualmente estudante de Front-End.
+                        </p>
+                        <p style="text-justify color: #404040; font-size: 1.2em;">
+                            Trabalho desenvolvendo sites utilizando Java para Back-End.
+                        </p>
+                    </div>
+                </div>
+                <div class="row text-center ml-md-5 mr-md-5 ml-0 mr-0 mb-3">
+                    <div class="col-12 pt-3 pb-3 mt-2 mb-2" style="background-color: #f2f2f2; border-radius: 10px;">
+                        <p style="font-size: 1.5em;">
+                            <strong><span style="color: #ff5c33;">RESUMO</span> DE EXPERIÊNCIA</strong>
+                        </p>
+                        <div class="row mt-5" style="font-size: 1.2em;">
+                            <div class="col-12 col-sm-4">
+                                Projeto 1
+                            </div>
+                            <div class="col-12 col-sm-4">
+                                Projeto 2
+                            </div>
+                            <div class="col-12 col-sm-4">
+                                Projeto 3
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row text-center ml-md-5 mr-md-5 ml-0 mr-0">
+                    <div class="col-12 pt-3 pb-3 mt-2 mb-5" style="background-color: #f2f2f2; border-radius: 10px;">
+                        <p style="font-size: 1.5em;">
+                            <strong><span style="color: #ff5c33;">TECNOLOGIAS</span> CONHECIDAS</strong>
+                        </p>
+                        <div class="mt-5"></div>
+                        <p>
+                            <div class="row mb-5">
+                                <div class="col-12 col-md-4 mb-2">
+                                    <strong>Java</strong>
+                                    <div class="progress mr-5 ml-5" id="barra-progresso" style="height: 2vh;">
+                                        <div class="progress-bar" role="progressbar" style="width: 45%; font-size: 1.5em;" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"><strong>45%</strong></div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-4 mb-2">
+                                    <strong>SQL</strong>
+                                    <div class="progress mr-5 ml-5" id="barra-progresso" style="height: 2vh;">
+                                        <div class="progress-bar" role="progressbar" style="width: 25%; font-size: 1.5em;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><strong>25%</strong></div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-4 mb-2">
+                                    <strong>LINUX</strong>
+                                    <div class="progress mr-5 ml-5" id="barra-progresso" style="height: 2vh;">
+                                        <div class="progress-bar" role="progressbar" style="width: 35%; font-size: 1.5em;" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"><strong>35%</strong></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mb-5">
+                                <div class="col-12 col-md-4 mb-2">
+                                    <strong>HTML</strong>
+                                    <div class="progress mr-5 ml-5" id="barra-progresso" style="height: 2vh;">
+                                        <div class="progress-bar" role="progressbar" style="width: 30%; font-size: 1.5em;" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"><strong>30%</strong></div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-4 mb-2">
+                                    <strong>CSS</strong>
+                                    <div class="progress mr-5 ml-5" id="barra-progresso" style="height: 2vh;">
+                                        <div class="progress-bar" role="progressbar" style="width: 20%; font-size: 1.5em;" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"><strong>20%</strong></div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-4 mb-2">
+                                    <strong>JAVASCRIPT</strong>
+                                    <div class="progress mr-5 ml-5" id="barra-progresso" style="height: 2vh;">
+                                        <div class="progress-bar" role="progressbar" style="width: 35%; font-size: 1.5em;" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"><strong>35%</strong></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mb-5">
+                                <div class="col-12 col-md-4 mb-2">
+                                    <strong>GIT</strong>
+                                    <div class="progress mr-5 ml-5" id="barra-progresso" style="height: 2vh;">
+                                        <div class="progress-bar" role="progressbar" style="width: 35%; font-size: 1.5em;" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"><strong>35%</strong></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="servicos">
+            <div class="container-fluid" style="height: auto;">
+                <strong><p class="titulo">MEUS SERVIÇOS</p></strong>
+                <div class="row text-center ml-md-5 mr-md-5 ml-0 mr-0 mb-3 mt-5">
+                    <div class="col-12 text-center">
+                        <strong><p style="color: #404040; font-size: 1.2em; font-weight: normal;">
+                            Desenvolvo sites tanto relacionados ao Front-End quanto ao Back-End.
+                        </p></strong>
+                    </div>
+                    <div class="row mb-5 mr-auto ml-auto" style="font-size: 1.2em;">
+                        <div class="col-12 col-sm-4 mt-5 mb-2">
+                            <p>Back-End em Java</p>
+                        </div>
+                        <div class="col-12 col-sm-4 mt-5 mb-2">
+                            <p>Front-End</p>
+                        </div>
+                        <div class="col-12 col-sm-4 mt-5 mb-2">
+                            <p>Banco de dados</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contato">
+            <div class="container-fluid" id="section" style="background-color: rgb(250, 250, 250);">
+                <strong><p class="titulo">CONTATO</p></strong>
                 <form method="post">
                     <div class="form-group" id="formulario-bloco">
                         <label for="form-nome" class="d-block">Nome</label>
-                        <input class="form-control" type="text" placeholder="Nome" id="form-nome">
+                        <input class="form-control" type="text" placeholder="Nome" id="form-nome" name="nome">
                         <label for="form-email" class="d-block mt-4">Email</label>
-                        <input class="form-control" type="text" placeholder="Email" id="form-email">
+                        <input class="form-control" type="text" placeholder="Email" id="form-email" name="email">
                         <label for="form-telefone" class="d-block mt-4">Telefone</label>
-                        <input class="form-control" type="text" placeholder="Telefone" id="form-telefone">
+                        <input class="form-control" type="text" placeholder="Telefone" id="form-telefone" name="telefone">
                         <label for="form-mensagem" class="d-block mt-4">Mensagem</label>
-                        <textarea class="form-control" type="text" placeholder="Mensagem" id="form-mensagem"></textarea>
+                        <textarea class="form-control" type="text" placeholder="Mensagem" id="form-mensagem" name="mensagem"></textarea>
                         <button type="submit" class="btn btn-primary d-block mt-4">Enviar</button>
                     </div>
                 </form>
             </div>
         </section>
-        
+        <footer class="bg-dark pt-3 pb-2 text-center">
+            <p id="footer-text">Copyright - Guilherme Carrara Tonello</p>
+            <p id="footer-text">ESSE SITE NÃO É UM CURRÍCULO VERÍDICO E SIM APENAS UM TESTE!</p>
+        </footer>
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
