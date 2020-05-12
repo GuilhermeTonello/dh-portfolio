@@ -24,6 +24,41 @@ a#link {
     font-size: 2.5em;
 }
 
+#container-projeto {
+    position: relative;
+    transition: 0.3s;
+}
+
+#container-projeto:hover img {
+    -webkit-filter: blur(5px);
+    filter: blur(5px);
+}
+
+#container-projeto:hover #img-projeto-texto {
+    visibility: visible;
+    opacity: 1;
+}
+
+#img-projeto {
+    width: 100%;
+    transition: 0.3s;
+    position: relative;
+    display: block;
+}
+
+#img-projeto-texto {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+}
+
 #formulario-bloco {
     margin: 0 25vw;
     margin-top: 10vh;
